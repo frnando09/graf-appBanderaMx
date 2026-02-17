@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+
+    <!-- Enlace al CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1>Bandera de México</h1>
+
+        <div class="sliders">
+            <div class="slider-box">
+                <p><strong>Esperanza</strong></p>
+                <input type="range" id="sliderVerde" min="0" max="255" value="153">
+                <p id="hexVerde">#009900</p>
+            </div>
+
+            <div class="slider-box">
+                <p><strong>Unidad</strong></p>
+                <p>#FFFFFF</p>
+            </div>
+
+            <div class="slider-box">
+                <p><strong>Sangre de nuestros héroes nacionales</strong></p>
+                <input type="range" id="sliderRojo" min="0" max="255" value="157">
+                <p id="hexRojo">#9D0000</p>
+            </div>
+        </div>
+
+        <div class="bandera">
+            <div class="color-box" id="verde"></div>
+
+              <div class="color-box" id="blanco">
+        <div class="escudo-contenedor">
+            <img src="escudo.png" class="escudo">
+        </div>
+    </div>
+
+            <div class="color-box" id="rojo"></div>
+        </div>
+    </div>
+
+    <!-- Enlace al JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

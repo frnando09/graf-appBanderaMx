@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.contenedor {
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+.sliders {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.slider-box {
+    width: 30%;
+}
+
+.bandera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+
+.color-box {
+    width: 300px;
+    height: 200px;
+}
+
+
+#verde {
+    background-color: #009900;
+}
+
+#blanco {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Contenedor del escudo */
+.escudo-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rojo {
+    background-color: #9D0000;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+/* Imagen del escudo */
+.escudo {
+    width: 150px;
+    height: auto;
+}
